@@ -1,0 +1,21 @@
+TODO
+
+"Every two days now, we create as much information as we did from the dawn of civilization up until 2003".
+
+
+1) Read gps coordinates with Google Place API:
+
+    - API Documentation
+        * http://code.google.com/apis/maps/documentation/places/index.html#Introduction
+
+    - Google Place API Administration Control Panel
+        * https://code.google.com/apis/console/#project:285431147656:stats
+
+    - Sample URL
+https://maps.googleapis.com/maps/api/place/search/xml?location=-33.8670522,151.1957362&radius=500&types=food&name=harbour&sensor=false&key=AIzaSyDupQfN9isjj4HNMrbGpsQFH2ut5EL42v0
+
+2) Parse the XML with python
+    - minidom, ElementTree
+        * http://developer.yahoo.com/python/python-xml.html
+
+3) Store the images with my own XML format.
