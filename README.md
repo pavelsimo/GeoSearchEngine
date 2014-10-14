@@ -1,2 +1,2 @@
-geo-search-engine
+GeoSearchEngine
 =================
